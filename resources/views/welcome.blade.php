@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <section class="bg-[#040404] lg:bg-black border-b-2 border-b-[#72e060] sticky z-20">
+    <section class="bg-[#040404] lg:bg-black border-b-2 border-b-[#72e060] sticky top-0 z-50">
         <div class="max-w-screen-xl mx-auto">
             <div class="py-4 px-5 lg:px-10 gap-4 lg:gap-10 flex flex-col lg:flex-row lg:items-center" x-data="{ open: false }">
                 <div class="flex">
@@ -20,7 +20,7 @@
                         <svg class="text-[#41cc2a] w-10 h-10" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 18H3v-2h18v2Zm0-5H3v-2h18v2Zm0-5H3V6h18v2Z"/></svg>
                     </button>
                 </div>
-                <div :class="open ? 'show' : 'hidden'" class="flex h-screen lg:h-0 bg-black px-5 lg:px-0 lg:flex lg:flex-row lg:justify-between flex-col lg:items-center w-full">
+                <div :class="open ? 'show' : 'hidden'" class="flex bg-black px-5 lg:px-0 lg:flex lg:flex-row lg:justify-between flex-col lg:items-center w-full">
                     <a href="#" class="text-base flex flex-row items-center lg:mt-0 lg:border-0 gap-x-2 lg:gap-x-0 text-[#7d7d7d] border-b py-2 lg:py-0 border-b-gray-700 hover:text-white">
                         <p>
                             PC
